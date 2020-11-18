@@ -1,0 +1,46 @@
+{
+  "name": "cityhash",
+  "version": "1.0.0",
+  "description": "Pure JavaScript implement for CityHash. (No C++ binding)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint .",
+    "d-ts-lint": "tsc index.d.ts",
+    "coverage": "nyc mocha -b -R spec",
+    "ci": "npm run lint && npm run d-ts-lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoogeeDoo/node-cityhash.git"
+  },
+  "keywords": [
+    "cityhash",
+    "city hash",
+    "google city hash",
+    "google cityhash",
+    "hashing"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoogeeDoo/node-cityhash/issues"
+  },
+  "homepage": "https://github.com/BoogeeDoo/node-cityhash#readme",
+  "dependencies": {
+    "bling-hashes-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-egg": "^9.0.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "typescript": "^4.0.5"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  }
+}
