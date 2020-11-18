@@ -1,5 +1,5 @@
 {
-  "name": "cityhash.js",
+  "name": "google-cityhash",
   "version": "1.0.0",
   "description": "Pure JavaScript implement for CityHash. (No C++ binding)",
   "main": "index.js",
