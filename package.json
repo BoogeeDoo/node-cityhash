@@ -1,5 +1,5 @@
 {
-  "name": "cityhash",
+  "name": "cityhash.js",
   "version": "1.0.0",
   "description": "Pure JavaScript implement for CityHash. (No C++ binding)",
   "main": "index.js",
@@ -14,6 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/BoogeeDoo/node-cityhash.git"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "cityhash",
     "city hash",
